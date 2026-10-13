@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [" i ", "iri", "ici"],
+  "key": {
+    "i": { "item": "minecraft:iron_ingot" },
+    "r": { "item": "minecraft:redstone" },
+    "c": { "item": "minecraft:copper_ingot" }
+  },
+  "result": { "id": "nightvoice:radio", "count": 1 }
+}

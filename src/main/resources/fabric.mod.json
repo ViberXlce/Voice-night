@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nightvoice",
+  "version": "${version}",
+  "name": "NIGHT Voice",
+  "description": "Proximity 3D voice chat with whisper/shout, occlusion, reverb, radios and recording.",
+  "authors": ["NIGHT Esports"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["gg.night.voice.NightVoice"],
+    "client": ["gg.night.voice.client.NightVoiceClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
