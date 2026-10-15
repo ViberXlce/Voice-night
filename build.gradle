@@ -15,8 +15,7 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    // Opus codec (pure Java, no natives) - bundled inside the mod jar
-    include(implementation("io.github.jaredmdobson:concentus:1.0.2"))
+    // Opus codec (Concentus, pure Java) is vendored in src/main/java/org/concentus - no extra dependency
 }
 
 processResources {
