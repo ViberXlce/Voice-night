@@ -228,7 +228,7 @@ public final class AudioEngine implements Runnable {
             if (efx) {
                 s.filter = EXTEfx.alGenFilters();
                 EXTEfx.alFilteri(s.filter, EXTEfx.AL_FILTER_TYPE, EXTEfx.AL_FILTER_LOWPASS);
-                AL10.alSource3i(s.src, EXTEfx.AL_AUXILIARY_SEND_FILTER, slot, 0, EXTEfx.AL_FILTER_NULL);
+                 AL11.alSource3i(s.src, EXTEfx.AL_AUXILIARY_SEND_FILTER, slot, 0, EXTEfx.AL_FILTER_NULL);
             }
             return s;
         } catch (OpusException e) {
